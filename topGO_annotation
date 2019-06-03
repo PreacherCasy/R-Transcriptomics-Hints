@@ -1,4 +1,6 @@
-
+library(dplyr)
+library(sleuth)
+library(topGO)
 
 newFuncadelicGo <- function(x, database, mode, intGenes, cutoff = 0.01) {
   myGOdata <- new("topGOdata", 
